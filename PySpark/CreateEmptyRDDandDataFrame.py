@@ -9,3 +9,14 @@ print(rdd1)
 rdd2 = spark.sparkContext.parallelize([])
 print(rdd2)
 
+# Creating schema and DataFrame using above RDD
+from pyspark.sql.types import StructType, StructField, StringType
+schema = StructType([
+    StructField('Firstname', StringType(), True),
+    StructField('Middlename', StringType(), True),
+    StructField('Lastname', StringType(), True),
+])
+
+df = spark.createDataFrame(rdd2, schema)
+df.printSchema()
+
