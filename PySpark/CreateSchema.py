@@ -16,5 +16,5 @@ rdd1 = spark.sparkContext.emptyRDD()
 print(rdd1)
 
 # Converting RDD to a DataFrame based on the above defined schema
-df = spark.createDataFrame(rdd2, schema)
+df = spark.createDataFrame(rdd1, schema)
 df.printSchema()
