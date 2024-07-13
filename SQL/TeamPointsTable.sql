@@ -11,7 +11,7 @@
 
 CREATE TABLE matches
 (
-    id INT AUTO_INCREMENT PRIMARY KEY,
+    id INT PRIMARY KEY,
     TeamA VARCHAR(50),
     TeamB VARCHAR(50),
     Result VARCHAR(10)
