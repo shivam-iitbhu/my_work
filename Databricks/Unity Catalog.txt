@@ -1,0 +1,22 @@
+- Key Concepts
+- Manage Users & Groups
+- Create a Unity Catalog - enabled Cluster & SQL endpoint
+- Create and Govern table and views
+- Govern file access
+- Limit table access with dynamic views
+- Lineage
+
+# Data Governance
+- Refers to the process of managing the availability, usability, integrity, and security
+1. Data Access Control: Control who has access to which data
+2. Data Access Audit: Capture and record all accesses to data, who is using, when and how.
+3. Data Lineage: Captures upstream sources and downstream consumres.
+4. Data Discovery: Ability to search for and discover authorized assets
+5. Secure Data Sharing
+
+Overview:
+Unity Catalog Unifies:
+1. Governance across clouds
+2. Data & AI assets
+3. Existing catalogs
+
