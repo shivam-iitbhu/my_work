@@ -16,6 +16,8 @@
 	
 
 -- Create friends tables
+DROP TABLE IF EXISTS dbo.friends;
+
 CREATE TABLE dbo.friends
 (user_id VARCHAR(10),
 friend_id VARCHAR(10));
@@ -34,6 +36,8 @@ VALUES
 SELECT * FROM dbo.friends;
 
 -- Create likes tables
+DROP TABLE IF EXISTS dbo.likes;
+
 CREATE TABLE dbo.likes
 (user_id VARCHAR(10),
 page_id VARCHAR(10));
