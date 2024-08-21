@@ -1,0 +1,32 @@
+-- To get current timestamp
+SELECT CURRENT_TIMESTAMP;
+
+-- To get current timestamp
+SELECT GETDATE();
+
+-- To get current date
+SELECT FORMAT(GETDATE(), 'yyyy-MM-dd');
+
+-- Multiple Date Formatting
+SELECT FORMAT(GETDATE(), 'yyyy/MM/dd');
+SELECT FORMAT(GETDATE(), 'dd/MM/yyyy');
+SELECT FORMAT(GETDATE(), 'dd/MMM/yyyy');
+SELECT FORMAT(GETDATE(), 'MMM/yy');
+SELECT FORMAT(GETDATE(), 'MMM-yy');
+
+SELECT FORMAT(GETDATE(), 'MM');
+
+-- DATEADD function
+SELECT DATEADD(YEAR, 1, '2017/08/25') AS DateAdd;
+SELECT DATEADD(MONTH, 1, '2017/08/25') AS DateAdd;
+SELECT DATEADD(DAY, 1, '2017/08/25') AS DateAdd;
+
+-- DATESUB function
+SELECT DATEDIFF(YEAR, '2017/08/25', '2011/08/25') AS DtDf;
+SELECT DATEDIFF(MONTH, '2017/08/25', '2011/08/25') AS DtDf;
+SELECT DATEDIFF(DAY, '2017/08/25', '2011/08/25') AS DtDf;
+
+-- Make date from its parts (year, month, day)
+SELECT DATEFROMPARTS(2022, 10, 31);
+
+SELECT FORMAT(GETDATE(), 'yyyyMM');
