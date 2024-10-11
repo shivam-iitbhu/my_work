@@ -1,0 +1,13 @@
+first_table:
+  catalog: first_catalog_name
+  schema: first_schema_name
+  table: first_table_name
+second_table:
+  catalog: second_catalog_name
+  schema: second_schema_name
+  table: second_table_name
+primary_key:
+  - primary_key_1
+  - primary_key_2
+  - primary_key_3
+  - primary_key_n
