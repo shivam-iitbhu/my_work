@@ -1,4 +1,4 @@
-def selt_variables(parms: dict = {}, jobtask: str = "configs", reset: bool = False):
+def set_variables(parms: dict = {}, jobtask: str = "configs", reset: bool = False):
     import inspect
     
     if reset:
